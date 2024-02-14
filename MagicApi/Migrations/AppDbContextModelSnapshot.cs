@@ -70,7 +70,7 @@ namespace MagicApi.Migrations
                         {
                             Id = 1,
                             Amenity = "",
-                            CreatedDate = new DateTime(2024, 1, 8, 16, 35, 54, 719, DateTimeKind.Local).AddTicks(9659),
+                            CreatedDate = new DateTime(2024, 1, 10, 12, 42, 51, 277, DateTimeKind.Local).AddTicks(1679),
                             Details = "adsdghjgjgjhgj",
                             ImageUrl = "www.google.com.jpg",
                             Name = "Dino",
@@ -83,7 +83,7 @@ namespace MagicApi.Migrations
                         {
                             Id = 2,
                             Amenity = "",
-                            CreatedDate = new DateTime(2024, 1, 8, 16, 35, 54, 719, DateTimeKind.Local).AddTicks(9679),
+                            CreatedDate = new DateTime(2024, 1, 10, 12, 42, 51, 277, DateTimeKind.Local).AddTicks(1692),
                             Details = "ccccccccccccccc",
                             ImageUrl = "www.google.com",
                             Name = "Ron",

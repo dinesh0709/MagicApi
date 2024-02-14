@@ -12,14 +12,14 @@ namespace MagicApi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Villa>().HasData(
+            modelBuilder.Entity<Villa>()/*.HasData(
                 new Villa
                 {
                     Id = 1,
                     Name = "Dino",
                     Details = "adsdghjgjgjhgj",
                     ImageUrl = "www.google.com.jpg",
-                    Occupancy = 5,
+                    Occupancy = 55,
                     Rate = 200,
                     Sqft = 550,
                     Amenity = "",
@@ -37,7 +37,7 @@ namespace MagicApi.Data
                     Amenity = "",
                     CreatedDate = DateTime.Now
 
-                });
+                })*/;
         }
     }
 }
